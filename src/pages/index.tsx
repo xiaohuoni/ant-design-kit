@@ -1,26 +1,17 @@
 import React from 'react';
-import { queryCurrent } from '../services/user';
+import { connect } from 'dva';
 
 interface PageProps {
   dispatch: any;
   location: any;
+  users: any[];
 }
 
+const mapStateToProps = (state: any) => state.app;
+@connect(mapStateToProps)
 class App extends React.Component<PageProps> {
-  state = {
-    users: [],
-  };
-
-  async componentDidMount() {
-    queryCurrent().then(res => {
-      this.setState({
-        users: res,
-      });
-    });
-  }
-
   public render() {
-    const { users } = this.state;
+    const { users } = this.props;
     return <div>Index Page:{JSON.stringify(users)}</div>;
   }
 }
