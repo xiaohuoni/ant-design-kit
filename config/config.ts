@@ -6,7 +6,7 @@ export default {
     // ref: https://umijs.org/plugin/umi-plugin-react.html
     ['umi-plugin-react', {
       antd: true,
-      dva: false,
+      dva: true,
       title: 'ant-design-kit',
       dll: false,
       routes: {
