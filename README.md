@@ -38,5 +38,7 @@ $ npm start         # 自动访问 http://localhost:8000
 - 提交 [Pull Request](https://github.com/xiaohuoni/ant-design-kit/pulls) 改进 项目 的代码。
 - 通过 [Q&A](https://github.com/xiaohuoni/ant-design-kit/issues/6) 参与闲聊讨论
 
+各位大哥大姐叔叔阿姨弟弟妹妹，走过路过不要错过，有钱的捧个钱场，有人的捧个人场，帮小弟点点Star。
+如果你支持手艺人，请帮我点一个关注，点一个Star。（烂梗王🤦‍♂️）
 
 注：我懒，本文直接用[Ant Design Pro](https://github.com/ant-design/ant-design-pro) 的readme改的。请给它点一个star
