@@ -21,6 +21,7 @@
   "homepage": "https://github.com/xiaohuoni/ant-design-kit#readme",
   "dependencies": {
     "umi": "^2.5.5",
-    "umi-plugin-react": "^1.5.2"
+    "umi-plugin-react": "^1.5.2",
+    "umi-request": "^1.0.3"
   }
 }
