@@ -3,7 +3,7 @@ import { message } from 'antd';
 
 const prefix = '';
 const headers = {
-  'Content-Type': 'application/json'
+  'Content-Type': 'application/json',
 };
 const extendedRequest = extend({
   responseType: 'json',
@@ -37,11 +37,10 @@ const extendedRequest = extend({
       message.error(errorMessage);
     }, 100);
   },
-  headers: headers
+  headers: headers,
 });
 
-
-export default async function request(url, options) {
+export default async function request(url: string, options?: any) {
   return extendedRequest(url, options).then(res => {
     // 业务上的错误统一在这里处理
     // if (res && res.resultcode !== '0') {

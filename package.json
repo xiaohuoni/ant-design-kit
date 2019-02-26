@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "umi dev"
+    "start": "umi dev",
+    "lint": "umi-lint -t src/",
+    "precommit": "umi-lint --prettier src/"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
   "homepage": "https://github.com/xiaohuoni/ant-design-kit#readme",
   "dependencies": {
     "umi": "^2.5.5",
+    "umi-lint": "^1.0.0-beta.1",
     "umi-plugin-react": "^1.5.2",
     "umi-request": "^1.0.3"
   }

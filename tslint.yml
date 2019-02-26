@@ -1,0 +1,10 @@
+defaultSeverity: error
+extends:
+
+jsRules:
+rules:
+  eofline: true
+  no-console: false
+  no-construct: true
+  no-debugger: true
+  no-reference: true
