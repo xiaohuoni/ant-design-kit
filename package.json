@@ -1,0 +1,26 @@
+{
+  "name": "ant-design-kit",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "umi dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuoni/ant-design-kit.git"
+  },
+  "keywords": [],
+  "authors": [
+    "xiaohuoni <chenxiaocong@icloud.com> (https://github.com/xiaohuoni)"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaohuoni/ant-design-kit/issues"
+  },
+  "homepage": "https://github.com/xiaohuoni/ant-design-kit#readme",
+  "dependencies": {
+    "umi": "^2.5.5",
+    "umi-plugin-react": "^1.5.2"
+  }
+}
