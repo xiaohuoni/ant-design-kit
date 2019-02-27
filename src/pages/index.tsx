@@ -1,9 +1,11 @@
 import React from 'react';
 import { connect } from 'dva';
+import { Dispatch } from 'redux';
+import * as H from 'history';
 
 interface PageProps {
-  dispatch: any;
-  location: any;
+  dispatch: Dispatch<any>;
+  location: H.Location;
   users: any[];
 }
 
